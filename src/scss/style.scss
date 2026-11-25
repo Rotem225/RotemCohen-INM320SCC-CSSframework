@@ -1,0 +1,285 @@
+/* colours */
+$teal: #4fd1c5;
+$white: #ffffff;
+$dark-text: #2d3748;
+$gray-text: #a0aec0;
+$line-gray: #e2e8f0;
+
+
+/* Global */
+
+/* Page background */
+body {
+  background-color: #f4f4f4;
+}
+
+/* Cards style */
+.card {
+  border-width: 0;
+  border-radius: 15px;
+  background-color: $white;
+  box-shadow: 0 3.5px 5.5px rgba(0, 0, 0, 0.04);
+}
+
+/* card subtitle */
+.card-sub {
+    color: $gray-text;
+    font-size: 14px;
+}
+
+/* Sidebar */
+
+/* Header */
+/* Logo in the sidebar */
+.sidebar-brand {
+    color: $dark-text;
+    font-weight: 700;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+/* Logo icon next to the name */
+.sidebar-brand img {
+    width: 30px;
+    height: 30px;
+}
+
+/* nav menu link styles */
+aside .nav-link {
+    color: $gray-text;
+    font-weight: 600;
+    font-size: 14px;
+    padding: 0.6rem 1rem;
+}
+
+/* Active nav menu style */
+aside .nav-pills .nav-link.active {
+    background-color: $white;
+    color: $dark-text;
+    border-radius: 15px;
+    box-shadow: 0 3.5px 5.5px rgba(0, 0, 0, 0.04);
+}
+
+/* Nav menu icons */
+aside .nav-link img {
+    width: 30px;
+    height: 30px;
+    padding: 8px;
+    border-radius: 12px;
+    background-color: $white;
+}
+
+/* active icon colour */
+aside .nav-link.active img {
+    background-color: $teal;
+}
+
+/* Account pages label */
+.account-label {
+    color: $dark-text;
+    font-weight: 700;
+}
+
+/* Page header */
+
+/* Page title and breadcrumb */
+header h1 {
+    color: $dark-text;
+    font-weight: 700;
+}
+
+.breadcrumb {
+    font-size: 0.8rem;
+    color: $dark-text;
+}
+
+/* Search box with rounded corners */
+.search-box {
+    border-radius: 15px;
+    width: 200px;
+}
+
+/* search box */
+.search-box .input-group-text,
+.search-box .form-control {
+    background-color: $white;
+    border-color: $line-gray;
+}
+
+/* Sign In, settings and bell links */
+.header-link {
+    color: #718096;
+    font-weight: 600;
+    font-size: 14px;
+    text-decoration: none;
+}
+
+
+/* 4 stat cards */
+
+/* Stat Label */
+.stat-label {
+    color: $gray-text;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+/* Teal rounded square that holds the icon */
+.stat-icon {
+    width: 45px;
+    height: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: $teal;
+    border-radius: 12px;
+}
+
+/* Stat icon size */
+.stat-icon img {
+    width: 20px;
+    height: 20px;
+}
+
+
+/* Active Users */
+
+/* Small teal square behind the mini stat icons */
+.mini-icon {
+    width: 22px;
+    height: 22px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: $teal;
+    border-radius: 6px;
+    flex-shrink: 0;
+}
+
+/* Icon size inside teal square */
+.mini-icon img {
+    width: 12px;
+    height: 12px;
+}
+
+/* Thin progress bars*/
+.progress-thin {
+    height: 3px;
+}
+
+/* Progress bar colour */
+.progress {
+    background-color: $line-gray;
+}
+
+/* Progress colour */
+.progress-bar {
+    background-color: $teal;
+}
+
+/* Progress bar widths */
+.bar-10 { 
+    width: 10%; 
+}
+
+.bar-25 { 
+    width: 25%; 
+}
+
+.bar-40 { 
+    width: 40%; 
+}
+
+.bar-50 { 
+    width: 50%; 
+}
+
+.bar-60 { 
+    width: 60%; 
+}
+
+.bar-80 { 
+    width: 80%; 
+}
+
+.bar-100 { 
+    width: 100%; 
+}
+
+
+/* Projects */
+.project-row {
+    color: $dark-text;
+    font-weight: 600;
+    font-size: 14px;
+}
+
+/* company logos */
+.company-icon {
+    width: 24px;
+    height: 24px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* company logo size */
+.company-icon img {
+    width: 24px;
+    height: 24px;
+}
+
+/* progress bar completion text */
+.completion-text {
+    color: $teal;
+    font-size: 13px;
+    font-weight: 700;
+}
+
+
+/* Orders Overview */
+
+/* Line color */
+.timeline-item {
+    border-color: $line-gray !important;
+}
+
+/* Icon sits on top of the line */
+.timeline-icon {
+    width: 24px;
+    height: 24px;
+    margin-left: -13px;
+    margin-right: 1rem;
+    flex-shrink: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: $white;
+}
+
+/* timeline icon sizes */
+.timeline-icon img {
+    width: 16px;
+    height: 16px;
+}
+
+/* title styling */
+.timeline-title {
+    color: $dark-text;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+/* Date style */
+.timeline-date {
+    color: $gray-text;
+    font-size: 12px;
+    font-weight: 600;
+}
+
+/* media query */
+@media (min-width: 992px) {
+    .sidebar-brand {
+        font-size: 20px;
+    }
+}

@@ -1,0 +1,270 @@
+/* colours */
+/* Global */
+/* Page background */
+body {
+  background-color: #f4f4f4;
+}
+
+/* Cards style */
+.card {
+  border-width: 0;
+  border-radius: 15px;
+  background-color: #ffffff;
+  box-shadow: 0 3.5px 5.5px rgba(0, 0, 0, 0.04);
+}
+
+/* card subtitle */
+.card-sub {
+  color: #a0aec0;
+  font-size: 14px;
+}
+
+/* Sidebar */
+/* Header */
+/* Logo in the sidebar */
+.sidebar-brand {
+  color: #2d3748;
+  font-weight: 700;
+  font-size: 20px;
+  text-decoration: none;
+}
+
+/* Logo icon next to the name */
+.sidebar-brand img {
+  width: 30px;
+  height: 30px;
+}
+
+/* nav menu link styles */
+aside .nav-link {
+  color: #a0aec0;
+  font-weight: 600;
+  font-size: 14px;
+  padding: 0.6rem 1rem;
+}
+
+/* Active nav menu style */
+aside .nav-pills .nav-link.active {
+  background-color: #ffffff;
+  color: #2d3748;
+  border-radius: 15px;
+  box-shadow: 0 3.5px 5.5px rgba(0, 0, 0, 0.04);
+}
+
+/* Nav menu icons */
+aside .nav-link img {
+  width: 30px;
+  height: 30px;
+  padding: 8px;
+  border-radius: 12px;
+  background-color: #ffffff;
+}
+
+/* active icon colour */
+aside .nav-link.active img {
+  background-color: #4fd1c5;
+}
+
+/* Account pages label */
+.account-label {
+  color: #2d3748;
+  font-weight: 700;
+}
+
+/* Page header */
+/* Page title and breadcrumb */
+header h1 {
+  color: #2d3748;
+  font-weight: 700;
+}
+
+.breadcrumb {
+  font-size: 0.8rem;
+  color: #2d3748;
+}
+
+/* Search box with rounded corners */
+.search-box {
+  border-radius: 15px;
+  width: 200px;
+}
+
+/* search box */
+.search-box .input-group-text,
+.search-box .form-control {
+  background-color: #ffffff;
+  border-color: #e2e8f0;
+}
+
+/* Sign In, settings and bell links */
+.header-link {
+  color: #718096;
+  font-weight: 600;
+  font-size: 14px;
+  text-decoration: none;
+}
+
+/* 4 stat cards */
+/* Stat Label */
+.stat-label {
+  color: #a0aec0;
+  font-size: 15px;
+  font-weight: 600;
+}
+
+/* Teal rounded square that holds the icon */
+.stat-icon {
+  width: 45px;
+  height: 45px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #4fd1c5;
+  border-radius: 12px;
+}
+
+/* Stat icon size */
+.stat-icon img {
+  width: 20px;
+  height: 20px;
+}
+
+/* Active Users */
+/* Small teal square behind the mini stat icons */
+.mini-icon {
+  width: 22px;
+  height: 22px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #4fd1c5;
+  border-radius: 6px;
+  flex-shrink: 0;
+}
+
+/* Icon size inside teal square */
+.mini-icon img {
+  width: 12px;
+  height: 12px;
+}
+
+/* Thin progress bars*/
+.progress-thin {
+  height: 3px;
+}
+
+/* Progress bar colour */
+.progress {
+  background-color: #e2e8f0;
+}
+
+/* Progress colour */
+.progress-bar {
+  background-color: #4fd1c5;
+}
+
+/* Progress bar widths */
+.bar-10 {
+  width: 10%;
+}
+
+.bar-25 {
+  width: 25%;
+}
+
+.bar-40 {
+  width: 40%;
+}
+
+.bar-50 {
+  width: 50%;
+}
+
+.bar-60 {
+  width: 60%;
+}
+
+.bar-80 {
+  width: 80%;
+}
+
+.bar-100 {
+  width: 100%;
+}
+
+/* Projects */
+.project-row {
+  color: #2d3748;
+  font-weight: 600;
+  font-size: 14px;
+}
+
+/* company logos */
+.company-icon {
+  width: 24px;
+  height: 24px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* company logo size */
+.company-icon img {
+  width: 24px;
+  height: 24px;
+}
+
+/* progress bar completion text */
+.completion-text {
+  color: #4fd1c5;
+  font-size: 13px;
+  font-weight: 700;
+}
+
+/* Orders Overview */
+/* Line color */
+.timeline-item {
+  border-color: #e2e8f0 !important;
+}
+
+/* Icon sits on top of the line */
+.timeline-icon {
+  width: 24px;
+  height: 24px;
+  margin-left: -13px;
+  margin-right: 1rem;
+  flex-shrink: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #ffffff;
+}
+
+/* timeline icon sizes */
+.timeline-icon img {
+  width: 16px;
+  height: 16px;
+}
+
+/* title styling */
+.timeline-title {
+  color: #2d3748;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+/* Date style */
+.timeline-date {
+  color: #a0aec0;
+  font-size: 12px;
+  font-weight: 600;
+}
+
+/* media query */
+@media (min-width: 992px) {
+  .sidebar-brand {
+    font-size: 20px;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */

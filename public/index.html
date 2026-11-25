@@ -1,0 +1,467 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Template</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.9/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-yEPZ7jP9S0QKiUQ0m3jjsO4ProIW7wvR9gXkI7JOGa2XVsw53Yke2bsdkBbjmmiX" crossorigin="anonymous">
+    <link rel="stylesheet" href="/assets/css/style.css">
+
+</head>
+<body>
+    <!-- Main Layout -->
+    <div class="container-fluid">
+        
+        <div class="row">
+
+            <!-- Sidebar -->
+            <aside class="col-lg-2 mt-5">
+                <p class="sidebar-brand d-flex align-items-center gap-2 py-3">
+                    <img src="/assets/images/purity-logo.svg" alt="">
+                    PURITY UI DASHBOARD
+                </p>
+                <nav>
+                    <ul class="nav nav-pills flex-column">
+                        <li class="nav-item">
+                            <a class="nav-link active d-flex align-items-center gap-2" href="#">
+                                <img src="/assets/images/dashboard.svg" alt="">
+                                Dashboard
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link d-flex align-items-center gap-2" href="#">
+                                <img src="/assets/images/tables.svg" alt="">
+                                Tables
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link d-flex align-items-center gap-2" href="#">
+                                <img src="/assets/images/billing.svg" alt="">
+                                Billing
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link d-flex align-items-center gap-2" href="#">
+                                <img src="/assets/images/rtl.svg" alt="">
+                                RTL
+                            </a>
+                        </li>
+                        
+                        <li class="mt-4 mb-2 ps-3">
+                            <p class="account-label text-uppercase small mb-0">Account Pages</p>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link d-flex align-items-center gap-2" href="#">
+                                <img src="/assets/images/profile.svg" alt="">
+                                Profile
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link d-flex align-items-center gap-2" href="#">
+                                <img src="/assets/images/sign-in.svg" alt="">
+                                Sign in
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link d-flex align-items-center gap-2" href="#">
+                                <img src="/assets/images/sign-up.svg" alt="">
+                                Sign up
+                            </a>
+                        </li>
+                    </ul>
+
+                </nav>
+            </aside>
+
+            <!-- Main Dashboard -->
+            <main class="col-lg-10 ">
+
+                <!-- Page header -->
+                <header class="d-flex flex-wrap justify-content-between align-items-center gap-3 mb-4 mt-4">
+
+                    <!-- page title -->
+                    <div>
+                        <nav>
+                            <ol class="breadcrumb mb-0">
+                                <li class="breadcrumb-item">Pages</li>
+                                <li class="breadcrumb-item active">Dashboard</li>
+                            </ol>
+                        </nav>
+                        <h1 class="h6 mb-0">Dashboard</h1>
+                    </div>
+
+                    <!-- search, sign in, settings, notifications -->
+                    <div class="d-flex align-items-center gap-3">
+                        <div class="input-group search-box">
+                            <span class="input-group-text">
+                                <img src="/assets/images/search.svg" alt="">
+                            </span>
+                            <input type="search" class="form-control" placeholder="Type here...">
+                        </div>
+
+                        <a href="#" class="header-link d-flex align-items-center gap-1">
+                            <img src="/assets/images/profile-grey.svg" alt="">
+                            Sign In
+                        </a>
+                        <a href="#" class="header-link">
+                            <img src="/assets/images/settings.svg" alt="">
+                        </a>
+                        <a href="#" class="header-link">
+                            <img src="/assets/images/bell-grey.svg" alt="">
+                        </a>
+                    </div>
+
+                </header>
+
+                <!-- Stat cards -->
+                <section class="row gx-3 gy-3 mb-3">
+
+                    <article class="col-6 col-lg-3">
+                        <div class="card h-100">
+                            <div class="card-body d-flex justify-content-between align-items-center">
+                                <div>
+                                    <p class="stat-label mb-1">Today's Money</p>
+                                    <h2 class="h5 mb-0">$53,000 <small class="text-success">+55%</small></h2>
+                                </div>
+                                <div class="stat-icon">
+                                    <img src="/assets/images/wallet.svg" alt="">
+                                </div>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="col-6 col-lg-3">
+                        <div class="card h-100">
+                            <div class="card-body d-flex justify-content-between align-items-center">
+                                <div>
+                                    <p class="stat-label mb-1">Today's Users</p>
+                                    <h2 class="h5 mb-0">2,300 <small class="text-success">+5%</small></h2>
+                                </div>
+                                <div class="stat-icon">
+                                    <img src="/assets/images/todays-users.svg" alt="">
+                                </div>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="col-6 col-lg-3">
+                        <div class="card h-100">
+                            <div class="card-body d-flex justify-content-between align-items-center">
+                                <div>
+                                    <p class="stat-label mb-1">New Clients</p>
+                                    <h2 class="h5 mb-0">+3,052 <small class="text-danger">-14%</small></h2>
+                                </div>
+                                <div class="stat-icon">
+                                    <img src="/assets/images/new-clients.svg" alt="">
+                                </div>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="col-6 col-lg-3">
+                        <div class="card h-100">
+                            <div class="card-body d-flex justify-content-between align-items-center">
+                                <div>
+                                    <p class="stat-label mb-1">Total Sales</p>
+                                    <h2 class="h5 mb-0">$173,000 <small class="text-success">+8%</small></h2>
+                                </div>
+                                <div class="stat-icon">
+                                    <img src="/assets/images/cart.svg" alt="">
+                                </div>
+                            </div>
+                        </div>
+                    </article>
+
+                </section>
+
+                <!-- Sales Overview and Active Users -->
+                <section class="row gx-3 mb-3">
+
+                    <!-- Sales Overview -->
+                    <article class="col-lg-6">
+                        <div class="card h-100">
+                            <div class="card-body">
+                                <h2 class="h5 card-title">Sales Overview</h2>
+                                <img src="/assets/images/sales-overview-graph.png" class="img-fluid" alt="Line chart of sales over the year">
+                            </div>
+                        </div>
+                    </article>
+
+                    <!-- Active Users -->
+                    <article class="col-lg-6">
+                        <div class="card h-100">
+                            <div class="card-body">
+                                <img src="/assets/images/active-users-graph.png" class="img-fluid mb-3" alt="Bar chart of active users">
+                                <h2 class="h5 card-title">Active Users</h2>
+
+                                <!-- Four mini stats -->
+                                <ul class="list-unstyled row g-3 mb-0">
+                                    <li class="col-3">
+                                        <div class="d-flex align-items-center gap-2 mb-1">
+                                            <span class="mini-icon">
+                                                <img src="/assets/images/wallet.svg" alt="">
+                                            </span>
+                                            <small class="fw-semibold">Users</small>
+                                        </div>
+                                        <div class="fw-bold">32,984</div>
+                                        <div class="progress progress-thin" role="progressbar">
+                                            <div class="progress-bar bar-60"></div>
+                                        </div>
+                                    </li>
+
+                                    <li class="col-3">
+                                        <div class="d-flex align-items-center gap-2 mb-1">
+                                            <span class="mini-icon">
+                                                <img src="/assets/images/rocket.svg" alt="">
+                                            </span>
+                                            <small class="fw-semibold">Clicks</small>
+                                        </div>
+                                        <div class="fw-bold">2,42m</div>
+                                        <div class="progress progress-thin" role="progressbar">
+                                            <div class="progress-bar bar-80"></div>
+                                        </div>
+                                    </li>
+
+                                    <li class="col-3">
+                                        <div class="d-flex align-items-center gap-2 mb-1">
+                                            <span class="mini-icon">
+                                                <img src="/assets/images/cart.svg" alt="">
+                                            </span>
+                                            <small class="fw-semibold">Sales</small>
+                                        </div>
+                                        <div class="fw-bold">$2,400</div>
+                                        <div class="progress progress-thin" role="progressbar">
+                                            <div class="progress-bar bar-40"></div>
+                                        </div>
+                                    </li>
+
+                                    <li class="col-3">
+                                        <div class="d-flex align-items-center gap-2 mb-1">
+                                            <span class="mini-icon">
+                                                <img src="/assets/images/wrench.svg" alt="">
+                                            </span>
+                                            <small class="fw-semibold">Items</small>
+                                        </div>
+                                        <div class="fw-bold">320</div>
+                                        <div class="progress progress-thin" role="progressbar">
+                                            <div class="progress-bar bar-50"></div>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </article>
+
+                </section>
+
+                <!-- Projects and Orders Overview -->
+                <section class="row gx-3">
+
+                    <!-- Projects -->
+                    <article class="col-lg-8">
+                        <div class="card h-100">
+                            <div class="card-body">
+                                <h2 class="h5 card-title mb-1">Projects</h2>
+                                <p class="card-sub mb-3"><span class="fw-semibold">30 done</span> this month</p>
+
+                                <!-- Column titles -->
+                                <div class="row stat-label text-uppercase small pb-2 border-bottom">
+                                    <div class="col-5">Companies</div>
+                                    <div class="col-3">Members</div>
+                                    <div class="col-2">Budget</div>
+                                    <div class="col-2">Completion</div>
+                                </div>
+
+                                <!-- Projects -->
+                                <ul class="list-unstyled mb-0">
+                                    <li class="row align-items-center py-3 border-bottom project-row">
+                                        <div class="col-5 d-flex align-items-center gap-3">
+                                            <span class="company-icon">
+                                                <img src="/assets/images/adobe.svg" alt="">
+                                            </span>
+                                            Chakra Soft UI Version
+                                        </div>
+                                        <div class="col-3"></div>
+                                        <div class="col-2">$14,000</div>
+                                        <div class="col-2">
+                                            <span class="completion-text">60%</span>
+                                            <div class="progress progress-thin">
+                                                <div class="progress-bar bar-60"></div>
+                                            </div>
+                                        </div>
+                                    </li>
+
+                                    <li class="row align-items-center py-3 border-bottom project-row">
+                                        <div class="col-5 d-flex align-items-center gap-3">
+                                            <span class="company-icon">
+                                                <img src="/assets/images/progress-track.svg" alt="">
+                                            </span>
+                                            Add Progress Track
+                                        </div>
+                                        <div class="col-3"></div>
+                                        <div class="col-2">$3,000</div>
+                                        <div class="col-2">
+                                            <span class="completion-text">10%</span>
+                                            <div class="progress progress-thin">
+                                                <div class="progress-bar bar-10"></div>
+                                            </div>
+                                        </div>
+                                    </li>
+
+                                    <li class="row align-items-center py-3 border-bottom project-row">
+                                        <div class="col-5 d-flex align-items-center gap-3">
+                                            <span class="company-icon">
+                                                <img src="/assets/images/slack.svg" alt="">
+                                            </span>
+                                            Fix Platform Errors
+                                        </div>
+                                        <div class="col-3"></div>
+                                        <div class="col-2">Not Set</div>
+                                        <div class="col-2">
+                                            <span class="completion-text">100%</span>
+                                            <div class="progress progress-thin">
+                                                <div class="progress-bar bar-100"></div>
+                                            </div>
+                                        </div>
+                                    </li>
+
+                                    <li class="row align-items-center py-3 border-bottom project-row">
+                                        <div class="col-5 d-flex align-items-center gap-3">
+                                            <span class="company-icon">
+                                                <img src="/assets/images/spotify.svg" alt="">
+                                            </span>
+                                            Launch our Mobile App
+                                        </div>
+                                        <div class="col-3"></div>
+                                        <div class="col-2">$32,000</div>
+                                        <div class="col-2">
+                                            <span class="completion-text">100%</span>
+                                            <div class="progress progress-thin">
+                                                <div class="progress-bar bar-100"></div>
+                                            </div>
+                                        </div>
+                                    </li>
+
+                                    <li class="row align-items-center py-3 border-bottom project-row">
+                                        <div class="col-5 d-flex align-items-center gap-3">
+                                            <span class="company-icon">
+                                                <img src="/assets/images/jira.svg" alt="">
+                                            </span>
+                                            Add the New Pricing Page
+                                        </div>
+                                        <div class="col-3"></div>
+                                        <div class="col-2">$400</div>
+                                        <div class="col-2">
+                                            <span class="completion-text">25%</span>
+                                            <div class="progress progress-thin">
+                                                <div class="progress-bar bar-25"></div>
+                                            </div>
+                                        </div>
+                                    </li>
+
+                                    <li class="row align-items-center py-3 border-bottom project-row">
+                                        <div class="col-5 d-flex align-items-center gap-3">
+                                            <span class="company-icon">
+                                                <img src="/assets/images/invision.svg" alt="">
+                                            </span>
+                                            Redesign New Online Shop
+                                        </div>
+                                        <div class="col-3"></div>
+                                        <div class="col-2">$7,600</div>
+                                        <div class="col-2">
+                                            <span class="completion-text">40%</span>
+                                            <div class="progress progress-thin">
+                                                <div class="progress-bar bar-40"></div>
+                                            </div>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </article>
+
+                    <!-- Orders Overview -->
+                    <article class="col-lg-4">
+                        <div class="card h-100">
+                            <div class="card-body">
+                                <h2 class="h5 card-title mb-1">Orders Overview</h2>
+                                <p class="card-sub mb-4"><span class="text-success fw-semibold">+30%</span> this month</p>
+
+                                <ul class="list-unstyled mb-0">
+                                    <li class="timeline-item d-flex border-start border-2 pb-4">
+                                        <span class="timeline-icon">
+                                            <img src="/assets/images/bell-blue.svg" alt="">
+                                        </span>
+                                        <div>
+                                            <p class="timeline-title mb-0">$2400, Design changes</p>
+                                            <small class="timeline-date">22 DEC 7:20 PM</small>
+                                        </div>
+                                    </li>
+
+                                    <li class="timeline-item d-flex border-start border-2 pb-4">
+                                        <span class="timeline-icon">
+                                            <img src="/assets/images/css3.svg" alt="">
+                                        </span>
+                                        <div>
+                                            <p class="timeline-title mb-0">New order #4219423</p>
+                                            <small class="timeline-date">21 DEC 11:21 PM</small>
+                                        </div>
+                                    </li>
+
+                                    <li class="timeline-item d-flex border-start border-2 pb-4">
+                                        <span class="timeline-icon">
+                                            <img src="/assets/images/cart-blue.svg" alt="">
+                                        </span>
+                                        <div>
+                                            <p class="timeline-title mb-0">Server Payments for April</p>
+                                            <small class="timeline-date">21 DEC 9:28 PM</small>
+                                        </div>
+                                    </li>
+
+                                    <li class="timeline-item d-flex border-start border-2 pb-4">
+                                        <span class="timeline-icon">
+                                            <img src="/assets/images/card.svg" alt="">
+                                        </span>
+                                        <div>
+                                            <p class="timeline-title mb-0">New card added for order #3210145</p>
+                                            <small class="timeline-date">20 DEC 3:52 PM</small>
+                                        </div>
+                                    </li>
+
+                                    <li class="timeline-item d-flex border-start border-2 pb-4">
+                                        <span class="timeline-icon">
+                                            <img src="/assets/images/dropbox.svg" alt="">
+                                        </span>
+                                        <div>
+                                            <p class="timeline-title mb-0">Unlock packages for Development</p>
+                                            <small class="timeline-date">19 DEC 11:35 PM</small>
+                                        </div>
+                                    </li>
+
+                                    <li class="timeline-item d-flex">
+                                        <span class="timeline-icon">
+                                            <img src="/assets/images/adobe.svg" alt="">
+                                        </span>
+                                        <div>
+                                            <p class="timeline-title mb-0">New order #9851258</p>
+                                            <small class="timeline-date">18 DEC 4:41 PM</small>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </article>
+
+                </section>
+            </main>
+
+        </div>
+
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.9/dist/js/bootstrap.bundle.min.js" integrity="sha384-WyOxWvTyr1QaMPfiPJSv76iReVthorl5uWlFtZPyK0IEB0hGzo9y5Bp9mYanr8Bu" crossorigin="anonymous"></script>
+</body>
+</html>
